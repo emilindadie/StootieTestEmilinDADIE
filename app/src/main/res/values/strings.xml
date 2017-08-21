@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">StootieTestEmilin</string>
+    <string name="adresse">Paris, 8ème arrondissment</string>
+    <string name="prenom">Prenom</string>
+    <string name="nom">Nom</string>
+    <string name="prix">30 £</string>
+    <string name="km">à 15 km</string>
+    <string name="jour">il ya 2 j</string>
+    <string name="titre">Aucun titre</string>
+    <string name="titreNull">Aucun titre</string>
+    <string name="date">Null</string>
+    <string name="prixProposé">Prix proposé</string>
+    <string name="budget">Budget</string>
+    <string name="date_prestation">Date de prestation</string>
+    <string name="details_date_prestation">Mercredi 9 janvier</string>
+    <string name="lieu_prestation">Lieu</string>
+    <string name="details_lieu_prestation">Appartement</string>
+    <string name="google_maps_key">AIzaSyDwPK5QMQYFYL83cZZYUfIlCrTfmmahYcA</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="localisation">Localisation</string>
+    <string name="date_publication">Publiée</string>
+    <string name="typeService">Type de service souhaités</string>
+    <string name="mission">Mission</string>
+    <string name="update">Mise à jour</string>
+    <string name="prixNull">Null</string>
+    <string name="adresseAucune">Aucune adresse</string>
+    <string name="Null">Null</string>
+    <string name="altProfilImage">Image de profil stoot</string>
+</resources>

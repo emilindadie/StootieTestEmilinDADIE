@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.emili.stootietestemilindadie.StootDetailsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/detailPhotoUser"
+                android:layout_marginTop="10dp"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:src="@drawable/anonyme"
+                android:layout_marginLeft="20dp"
+                android:contentDescription="@string/altProfilImage" />
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/detailPrenom"
+                style="@style/stootieDetail"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prenom"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/detailNom"
+                style="@style/stootieDetail"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nom"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout1"
+            android:layout_marginBottom="10dp"
+            >
+
+            <View
+                android:id="@+id/detailView1"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#eee"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:layout_below="@+id/layout2"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/detailTitre"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_width="252dp"
+                android:layout_height="wrap_content"
+                android:text="@string/titreNull"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:id="@+id/detailPrix"
+                android:layout_gravity="center_vertical"
+                style="@style/stootieDetail"
+                android:layout_marginLeft="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Null"
+                android:textStyle="bold"
+                android:textColor="#7FC6BC"
+                android:layout_marginStart="80dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout3"
+            android:layout_marginBottom="10dp"
+            >
+
+            <View
+                android:id="@+id/detailView2"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#eee"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:layout_below="@+id/layout4"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/datePublication"
+                style="@style/stootieDetail"
+                android:layout_marginLeft="20dp"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="@string/date_publication"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:id="@+id/detailDate"
+                style="@style/stootieDetail"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="186dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Null"
+                android:textStyle="bold"
+                android:layout_marginStart="186dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout6"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout5"
+            android:layout_marginBottom="10dp"
+            >
+
+            <View
+                android:id="@+id/detailView3"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#eee"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout7"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_below="@+id/layout6"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/localisation"
+                style="@style/stootieDetail"
+                android:layout_marginLeft="20dp"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="@string/localisation"
+                android:layout_marginStart="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout7"
+            android:layout_marginBottom="10dp"
+            >
+
+            <fragment
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="335dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="30dp"
+                tools:context="com.example.emili.stootietestemilindadie.StootDetailsActivity" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout9"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_below="@+id/layout8"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/adresseDetail"
+                style="@style/stootieDetail"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/adresseAucune"
+                android:layout_marginStart="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout9"
+            android:layout_marginBottom="10dp"
+            >
+
+            <View
+                android:id="@+id/detailView4"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#eee"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout10"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/typeService"
+                style="@style/stootieDetail"
+                android:layout_marginLeft="20dp"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="@string/typeService"
+                android:layout_marginStart="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout11"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/detailTypeService"
+                style="@style/stootieDetail"
+                android:layout_marginLeft="20dp"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Null"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout13"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout12"
+            android:layout_marginBottom="10dp"
+            >
+
+            <View
+                android:id="@+id/detailView5"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#eee"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout14"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_below="@+id/layout13"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/budgetEnvisage"
+                style="@style/stootieDetail"
+                android:layout_marginLeft="20dp"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="@string/budget"
+                android:layout_marginStart="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout14"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/detailBudgetEnvigase"
+                style="@style/stootieDetail"
+                android:layout_marginLeft="20dp"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Null"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>
